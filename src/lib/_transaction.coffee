@@ -1,5 +1,3 @@
-colors = require 'colors'
-
 class Transaction
 
   constructor : ( @_socket, params ) ->
