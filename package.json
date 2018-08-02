@@ -1,0 +1,29 @@
+{
+  "name": "dh-agent",
+  "version": "0.1.0",
+  "description": "dark hole nodejs base agent",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js",
+    "dist/lib/_transaction.js"
+  ],
+  "repository": "git@gitlab.com:darkhole/agent.git",
+  "author": "rabrux <rabrux@protonmail.com>",
+  "license": "The Unlicense",
+  "private": false,
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "coffeescript": "^2.3.1",
+    "dh-gate": "../dh-gate",
+    "gulp": "^3.9.1",
+    "gulp-coffeescript": "^0.0.15",
+    "gulp-watch": "^5.0.1",
+    "mocha": "^5.2.0",
+    "pm2": "^3.0.3",
+    "socket.io": "^2.1.1"
+  },
+  "dependencies": {
+    "dh-keys": "^1.0.0",
+    "socket.io-client": "^2.1.1"
+  }
+}
